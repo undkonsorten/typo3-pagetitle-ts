@@ -4,15 +4,17 @@
 # TYPO3 extension `pagetitle_ts`
 
 This TYPO3 CMS extension provides a TypoScript hook for `getData()`. It allows
-you to insert the final page title, built by the TYPO3 PageTitle API. Additionally,
-the page title is combined with the TypoScript `config.pageTitle` configuration
-to ensure consistency across the `<title>` and `<meta>` tags.
+you to insert the final page title, built by the TYPO3 PageTitle API.
+
+Additionally, the page title is combined with the TypoScript `config.pageTitle`
+configuration to ensure consistency across the `<title>` and `<meta>` tags.
 
 
 ## Features
 
 * Access final page title in TypoScript
 * Apply TypoScript page title configuration on raw page title
+* TypoScript snippet for automatic generation of title meta tags
 
 
 ## Installation
@@ -39,9 +41,14 @@ In your TypoScript, include the page title as follows:
 page.meta {
   og:title {
     data = page:title
+    replace = 1
   }
 }
 ```
+
+Alternatively, you can include the
+[TypoScript shipped with this extension](Configuration/TypoScript/setup.typoscript)
+to set the meta tags automatically.
 
 
 ## License
