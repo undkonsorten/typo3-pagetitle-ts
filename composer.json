@@ -15,7 +15,7 @@
 		"typoscript"
 	],
 	"support": {
-		"issues": "https://github.com/undkonsorten/typo3-pagetitle-ts/issues"
+		"issues": "https://github.com/eliashaeussler/typo3-pagetitle-ts/issues"
 	},
 	"require": {
 		"typo3/cms-core": "^9.5",

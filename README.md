@@ -1,5 +1,5 @@
-[![Latest Stable Version](https://poser.pugx.org/undkonsorten/typo3-pagetitle-ts/v/stable)](https://packagist.org/packages/undkonsorten/typo3-pagetitle-ts)
-[![License](https://poser.pugx.org/undkonsorten/typo3-pagetitle-ts/license)](https://packagist.org/packages/undkonsorten/typo3-pagetitle-ts)
+[![License](https://img.shields.io/github/license/eliashaeussler/typo3-pagetitle-ts.svg)](LICENSE)
+[![Release](https://img.shields.io/github/release/eliashaeussler/typo3-pagetitle-ts.svg)](https://github.com/eliashaeussler/typo3-pagetitle-ts/releases/)
 
 # TYPO3 extension `pagetitle_ts`
 
@@ -29,7 +29,7 @@ GitHub:
 
 ```bash
 cd typo3conf/ext
-git clone git@github.com:undkonsorten/typo3-pagetitle-ts.git pagetitle_ts
+git clone git@github.com:eliashaeussler/typo3-pagetitle-ts.git pagetitle_ts
 ```
 
 
