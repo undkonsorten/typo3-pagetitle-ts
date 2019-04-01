@@ -1,0 +1,33 @@
+{
+	"name": "undkonsorten/typo3-pagetitle-ts",
+	"description": "Extension to access the final page title within TypoScript in TYPO3 CMS",
+	"type": "typo3-cms-extension",
+	"homepage": "https://www.undkonsorten.com",
+	"authors": [
+		{
+			"name": "Elias Häußler",
+			"email": "elias.haeussler@undkonsorten.com"
+		}
+	],
+	"license": "GPL-2.0+",
+	"keywords": [
+		"pagetitle",
+		"typoscript"
+	],
+	"support": {
+		"issues": "https://github.com/undkonsorten/typo3-pagetitle-ts/issues"
+	},
+	"require": {
+		"typo3/cms-core": "^9.5",
+		"typo3/cms-frontend": "^9.5",
+		"php": "^7.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"Undkonsorten\\PagetitleTs\\": "Classes"
+		}
+	},
+	"replace": {
+		"pagetitle_ts": "self.version"
+	}
+}
