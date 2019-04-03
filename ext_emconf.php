@@ -3,15 +3,14 @@
 /** @noinspection PhpUndefinedVariableInspection */
 $EM_CONF[$_EXTKEY] = [
     'title' => 'Page title for TypoScript',
-    'description' => 'Provides access to the final page title within TypoScript.',
-    'category' => 'frontend',
+    'description' => 'Provides access to the final page title, built by the PageTitle API, within TypoScript.',
+    'category' => 'fe',
     'author' => 'Elias Häußler',
     'author_email' => 'elias.haeussler@undkonsorten.com',
-    'state' => 'beta',
-    'internal' => '',
-    'uploadfolder' => '0',
-    'createDirs' => '',
-    'clearCacheOnLoad' => 0,
+    'author_company' => 'undkonsorten',
+    'state' => 'stable',
+    'uploadfolder' => false,
+    'clearCacheOnLoad' => false,
     'version' => '1.0.0',
     'constraints' => [
         'depends' => [

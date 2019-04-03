@@ -1,21 +1,23 @@
 {
 	"name": "undkonsorten/typo3-pagetitle-ts",
-	"description": "Extension to access the final page title within TypoScript in TYPO3 CMS",
+	"description": "TYPO3 extension to access the final page title, built by the PageTitle API, within TypoScript",
 	"type": "typo3-cms-extension",
 	"homepage": "https://www.undkonsorten.com",
 	"authors": [
 		{
 			"name": "Elias Häußler",
-			"email": "elias.haeussler@undkonsorten.com"
+			"email": "elias.haeussler@undkonsorten.com",
+			"homepage": "https://haeussler.dev",
+			"role": "Developer"
 		}
 	],
-	"license": "GPL-2.0+",
+	"license": "GPL-2.0-or-later",
 	"keywords": [
 		"pagetitle",
 		"typoscript"
 	],
 	"support": {
-		"issues": "https://github.com/eliashaeussler/typo3-pagetitle-ts/issues"
+		"issues": "https://github.com/undkonsorten/typo3-pagetitle-ts/issues"
 	},
 	"require": {
 		"typo3/cms-core": "^9.5",
