@@ -54,7 +54,7 @@ class PageTitleGetDataHook implements ContentObjectGetDataHookInterface
      */
     public function getDataExtension($getDataString, array $fields, $sectionValue, $returnValue, ContentObjectRenderer &$parentObject)
     {
-        if ($sectionValue === self::GET_DATA_STRING) {
+        if (trim($sectionValue) === self::GET_DATA_STRING) {
             try {
                 $pageTitleProviderManager = GeneralUtility::makeInstance(PageTitleProviderManager::class);
                 $returnValue = $pageTitleProviderManager->getTitle();
