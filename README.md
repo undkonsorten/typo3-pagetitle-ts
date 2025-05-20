@@ -1,6 +1,11 @@
 [![License](https://img.shields.io/github/license/undkonsorten/typo3-pagetitle-ts.svg)](LICENSE)
 [![Release](https://img.shields.io/github/release/undkonsorten/typo3-pagetitle-ts.svg)](https://github.com/undkonsorten/typo3-pagetitle-ts/releases/)
 
+> [!IMPORTANT]  
+> This package has been abandoned. It‘s superseded by the possibilities of the [TYPO3 Page Title API](https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/ApiOverview/Seo/PageTitleApi.html) added to TYPO3 CMS since.
+> 
+> This package will not receive updates nor support.
+
 # TYPO3 extension `pagetitle_ts`
 
 This TYPO3 CMS extension provides a TypoScript hook for `getData()`. It allows
